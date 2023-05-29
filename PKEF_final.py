@@ -69,7 +69,7 @@ class Recommender:
             train_time += t1 - t0
             print('Train_time', t1 - t0, 'Total_time', train_time)
             log(self.makePrint('Train', ep, reses, test))
-            if test and ep > 60:
+            if test:
                 t2 = time()
                 reses = self.testEpoch()
                 t3 = time()
