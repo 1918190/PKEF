@@ -3,11 +3,11 @@
 This repository contains TensorFlow codes and datasets for the paper.
 
 ## Environment
-The codes of PKEF are implemented and tested under the following development environment:
-* python=3.6.13
-* tensorflow=1.15.0
-* numpy=1.19.2
-* scipy=1.5.2
+The code has been tested running under Python 3.6.15. The required packages are as follows:
+* nvidia-tensorflow == 1.15.4+nv20.10
+* tensorflow-determinism == 0.3.0
+* numpy == 1.19.5
+* scipy == 1.7.3
 
 ## Datasets
 We utilized three datasets to evaluate PKEF: <i>Beibei, Taobao, </i>and <i>Tmall Contest</i>. The <i>purchase</i> behavior is taken as the target behavior for all datasets. The last target behavior for the test users are left out to compose the testing set. We filtered out users and items with too few interactions.
